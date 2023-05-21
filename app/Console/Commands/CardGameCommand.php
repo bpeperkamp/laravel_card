@@ -4,11 +4,9 @@ namespace App\Console\Commands;
 
 use App\Models\Card;
 use App\Models\Player;
-use icanhazstring\SymfonyConsoleSpinner\SpinnerProgress;
 use Illuminate\Console\Command;
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Support\Facades\Artisan;
-use Illuminate\Support\Str;
 use Rahul900Day\LaravelConsoleSpinner\Spinner;
 use Symfony\Component\Console\Helper\Table;
 
